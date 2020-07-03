@@ -1,0 +1,90 @@
+body{ background-color: #f2f2f2; 
+    box-sizing: content-box;
+text-align: center;
+font-family: "OpenSans";
+vertical-align:middle;}
+
+
+
+@font-face {
+    font-family: "OpenSans";
+    src: url("OpenSans-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "nasalization";
+    src: url("nasalization-rg.ttf") format("truetype");}
+
+header {background-image: url(texture-header.jpg);
+    height: 150px;
+    font-family: "OpenSans";
+
+}
+
+p {font-size: 14px;
+    margin-left: auto;
+  margin-right: auto;
+    width: 750px;
+   
+}
+    
+
+h1{
+    font-family: "nasalization";
+    font-size: 40px;
+    color: #27d1ff;
+   vertical-align: middle;
+}
+nav{
+    list-style-position: inside;
+    background-color: #2e2f30;
+    padding-right: 50px;
+    margin: 0px;
+    text-align: right;
+    text-decoration: #17c1ff;
+}
+a {color: white;
+text-decoration: none;}
+
+a:hover{color: #17c1ff;
+}
+.en-cours{
+    color:#17c1ff;
+font-weight: bold; }
+footer{
+    
+    position:absolute;
+    
+    bottom:0;
+    
+    width:100%;
+    
+    padding-top:50px;
+    
+    height:60px;}
+
+h2{background:rgba(0, 0, 0, 0.5);
+    color: #2E2F2F;
+    
+
+}
+table{margin: auto;
+    height: 480 px;
+    font-family: "OpenSans"
+}
+th{list-style-position: inside;
+    background-color: dodgerblue;
+    color: white;
+}
+.espace
+{
+ height : 20px;
+}
+
+fieldset{padding: 8px;
+    font-family: "OpenSans"
+
+
+
+
+
+}
